@@ -36,3 +36,48 @@
     transform: rotate(360deg);
   }
 }
+
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  font-size: 40px;
+  margin: 0 auto;
+  padding: 100px;
+  color:darkgoldenrod;
+  background-color: #282c34;
+}
+
+.question {
+  padding: 20px;
+  margin-bottom: 40px;
+}
+
+.question h2 {
+  font-size: 40px;
+}
+
+.question p {
+  font-size: 27px;
+  color:cornflowerblue
+}
+
+.question button {
+  margin-top: 10px;
+  background-color:cornflowerblue;
+  color: wheat;
+  border: none;
+  padding: 10px 20px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.question button:hover {
+  background-color: darkgoldenrod;
+}
+
+.question .answer {
+  margin-top: 20px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  background-color: #f2f2f2;
+}
